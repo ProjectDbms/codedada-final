@@ -1,0 +1,117 @@
+body {
+    font-family: "Karla", sans-serif;
+    background-color: #070807;
+    background-image: url(../images/login-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /*background-position: center;*/
+}
+
+.login-card-wrapper {
+	display: -webkit-box;
+	display: flex;
+	-webkit-box-align: center;
+	align-items: center;
+	min-height: 100vh;
+	padding-top: 16px;
+	padding-bottom: 16px; 
+}
+
+.login-card {
+	width: 411px;
+	max-width: 100%;
+	border-radius: 8px;
+	box-shadow: 0 2px 40px 0 rgba(103, 101, 101, 0.5);
+	background-color: #ffffff; 
+}
+
+.login-card .card-body {
+	padding: 40px 55px 60px;
+}
+
+.login-card-title {
+	font-size: 20px;
+	font-weight: bold;
+	color: #000;
+	margin-bottom: 4px;
+}
+
+.login-card-description {
+	font-size: 18px;
+	color: #000;
+	font-weight: normal;
+	margin-bottom: 20px;
+}
+
+.login-card label {
+	font-size: 14px;
+	font-weight: bold;
+	color: #000; 
+}
+
+.login-card .forgot-password-link {
+	font-size: 12px;
+	color: #000;
+}
+
+.login-card .form-control {
+	border: 1px solid #f5f5f5;
+	border-radius: 4px;
+	padding: 16px 18px;
+	margin-bottom: 16px;
+	min-height: 48px;
+	font-size: 14px;
+	font-weight: normal;
+}
+
+.login-card .form-control::-webkit-input-placeholder {
+	color: #b0adad; 
+}
+
+.login-card .form-control::-moz-placeholder {
+	color: #b0adad;
+}
+
+.login-card .form-control:-ms-input-placeholder {
+	color: #b0adad;
+}
+
+.login-card .form-control::-ms-input-placeholder {
+	color: #b0adad;
+}
+
+.login-card .form-control::placeholder {
+	color: #b0adad;
+}
+
+.login-card .login-btn {
+	padding: 13px 35px;
+	background-color: #ff574e;
+	border-radius: 24px;
+	font-size: 18px;
+	font-weight: bold;
+	color: #fff;
+	margin-bottom: 20px;
+}
+
+.login-card .login-btn:hover {
+	border: 1px solid #ff574e;
+	background: #fff;
+	color: #ff574e;
+}
+
+.login-card-footer-text {
+	font-size: 13px;
+	color: #000;
+	margin-bottom: 0;
+}
+
+input[type="email"], input[type="password"], input[type="text"] {
+	border: 1px solid #17a2b8 !important;
+}
+
+input[type="email"]:focus, input[type="password"]:focus, input[type="text"]:focus {
+	outline: none !important;
+	border-color: #17a2b8 !important;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 0px 8px rgba(23, 162, 184, 0.5) !important;
+}

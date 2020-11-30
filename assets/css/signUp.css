@@ -1,0 +1,51 @@
+.container-fluid {
+	/*height: 100% !important;*/
+}
+
+.container-main {
+	height: 100vh;
+	font-family: "Karla", sans-serif;
+}
+
+.signup-card {
+    /*background-color: #070807;*/
+    background-image: url(../images/signup-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.signup-form {
+	/*background-color: lightblue;*/
+	padding-top: 3rem !important;
+}
+
+.signup-form form {
+	padding: 2rem 3rem;
+	margin-top: 2rem;
+	border: 2px solid rgba(23, 162, 184, 1);
+	border-radius: 5px;
+	box-sizing: border-box;
+	box-shadow: 0px 5px 16px rgba(0, 0, 0, 0.65), 0px 5px 19px rgba(0, 0, 0, 0.45);
+}
+
+input.form-control {
+	border: 1px solid #17a2b8 !important;
+}
+
+input.form-control:focus {
+	outline: none !important;
+	border-color: #17a2b8 !important;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 0px 8px rgba(23, 162, 184, 0.5) !important;
+}
+
+
+@media (max-width: 500px) {
+	.signup-card {
+		height: 50vh;
+	}
+	.signup-form {
+	    height: 72vh;
+	    margin-top: 0rem !important;
+	    padding: 2rem 2rem !important;
+	}
+}

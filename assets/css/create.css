@@ -1,0 +1,31 @@
+.container-fluid {
+	height: 100%;
+	width: 100%;
+}
+
+.dropdown-menu>.dropdown-item:hover {
+	background-color: green;
+	color: white;
+}
+
+.contest-form {
+	margin-top: 3rem;
+	margin-bottom: 3rem;
+	/*border: 2px solid #495057;*/
+	/*border: 1px solid #ced4da;*/
+	/*border: 1px solid rgb(206, 212, 218);*/
+	/*border: 2px solid green;*/
+	/*border-radius: 5px;*/
+	padding: 3rem 3rem; 
+}
+
+.contest-form h2 {
+	margin-bottom: 1rem;
+	margin-top: -1rem;
+}
+
+.form-control:focus {
+	outline: none !important;
+	border-color: #17a2b8 !important;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 0px 8px rgba(23, 162, 184, 0.5) !important;
+}
