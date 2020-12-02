@@ -6,16 +6,16 @@
         <meta name="description" content="" />
         <meta name="author" content="" />
         <title>CodeDada - Your One stop solution for coding</title>
-		<?php
-			session_start();
-			include("includes/db_connection.php");
-			if(!(isset($_SESSION["username"]))) {
-				//header("location: login.php");
-			} else {
+        <?php
+            session_start();
+            include("includes/db_connection.php");
+            if(!(isset($_SESSION["username"]))) {
+                //header("location: login.php");
+            } else {
                 header('location: index_profile.php');
             }
-			include("includes/header.php");
-		?>
+            include("includes/header.php");
+        ?>
         
         <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
         <!-- Font Awesome icons -->
@@ -25,8 +25,8 @@
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="./assets/css/index.css" rel="stylesheet" />
-	
-	
+    
+    
 </head>
 <body id="page-top">
         <!-- Navigation-->
@@ -40,7 +40,7 @@
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
-						<li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contact Us</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contact Us</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#section3">Register</a></li>
                         <li class="nav-item"><a class="nav-link " href="login.php">Login</a></li>
                     </ul>
@@ -64,7 +64,7 @@
                     <div class="col-lg-8 mx-auto">
                         <h2 class="text-white mb-4">we codedada</h2>
                         <p class="text-white-50">
-                            placeholder
+                            Made with passion by <br> <span style="color: white">Akash Hooda, Guhan M, Ravechandr, Rohit Sharma</span>
                         </p>
                     </div>
                 </div>
@@ -79,8 +79,8 @@
                     <div class="col-xl-8 col-lg-7"><img class="img-fluid mb-3 mb-lg-0" src="./assets/images/developer-coding.svg" alt="" /></div>
                     <div class="col-xl-4 col-lg-5">
                         <div class="featured-text text-center text-lg-left">
-                            <h4>Some title here</h4>
-                            <p class="text-black-50 mb-0">Placeholder</p>
+                            <h4>Competitive Programming</h4>
+                            <p class="text-black-50 mb-0">This is a competitive coding platform</p>
                         </div>
                     </div>
                 </div>
@@ -91,8 +91,8 @@
                         <div class="bg-white text-center h-100 project">
                             <div class="d-flex h-100">
                                 <div class="sec2-text w-100 my-auto text-center text-lg-left">
-                                    <h4 class="text-black">random Placeholder</h4>
-                                    <p class="mb-0 text-black-50">placeholder</p>
+                                    <h4 class="text-black">Why wait?</h4>
+                                    <p class="mb-0 text-black-50">Just Create account and solve challenging problems</p>
                                     <hr class="d-none d-lg-block mb-0 ml-0" />
                                 </div>
                             </div>
@@ -106,8 +106,8 @@
                         <div class="bg-white text-center h-100 project">
                             <div class="d-flex h-100">
                                 <div class="project-text w-100 my-auto text-center text-lg-right">
-                                    <h4 class="text-black">again a placeholder</h4>
-                                    <p class="mb-0 text-black-50">placeholder</p>
+                                    <h4 class="text-black">We Codedada</h4>
+                                    <p class="mb-0 text-black-50">An open source initiative</p>
                                     <hr class="d-none d-lg-block mb-0 mr-0" />
                                 </div>
                             </div>
@@ -122,19 +122,19 @@
                     <div class="col-md-10 col-lg-8 mx-auto text-center">
                         <h2 class="text-white mb-5">YOU NEW??!!</h2>
                         <form class="form-inline d-flex">
-						<pre>
-						
-			<input type="email" class="form-control" name="email" id="email" placeholder="Enter email ..." required>
-			<p id="email-error" class="text-danger" style="font-size: 12px;"></p>   
-			<input type="text" class="form-control" name="username" id="username" placeholder="Enter username ..." min="4" max="50" required>
-			<p id="username-error" class="text-danger" style="font-size: 12px;"></p>
-			<input type="password" class="form-control" name="password" id="password" placeholder="Enter password ..." min="4" max="20" required>
+                        <pre>
+                        
+            <input type="email" class="form-control" name="email" id="email" placeholder="Enter email ..." required>
+            <p id="email-error" class="text-danger" style="font-size: 12px;"></p>   
+            <input type="text" class="form-control" name="username" id="username" placeholder="Enter username ..." min="4" max="50" required>
+            <p id="username-error" class="text-danger" style="font-size: 12px;"></p>
+            <input type="password" class="form-control" name="password" id="password" placeholder="Enter password ..." min="4" max="20" required>
 
 
-			<input type="password" class="form-control" name="confirmPassword" id="confirmPassword" placeholder="Confirm password ..." min="4" max="20" required>
-			<p id="password-mismatch-error" class="text-danger" style="font-size: 12px;"></p>
-			<button class="btn btn-primary mx-auto" type="submit" value="register ">Register</button>
-							</pre>
+            <input type="password" class="form-control" name="confirmPassword" id="confirmPassword" placeholder="Confirm password ..." min="4" max="20" required>
+            <p id="password-mismatch-error" class="text-danger" style="font-size: 12px;"></p>
+            <button class="btn btn-primary mx-auto" type="submit" value="register ">Register</button>
+                            </pre>
                         </form>
                     </div>
                 </div>
@@ -192,4 +192,4 @@
         <!-- Core theme JS-->
         <script src="./assets/js/index.js"></script>
     </body>
-	</html>
+    </html>
